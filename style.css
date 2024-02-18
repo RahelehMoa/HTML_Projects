@@ -1,0 +1,16 @@
+p {
+    font-size: 25px;
+    color: blueviolet;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  pre {
+    font-size: 25px;
+    color: blueviolet;
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  body{
+    background-color: rgb(11, 132, 67);
+  }
