@@ -1,0 +1,36 @@
+#NavPages{ 
+    padding: 20px;
+}
+.div1{
+   margin-left: 600px;
+   padding: 1px;
+   border-left: 5px solid rgb(196 222 166);
+}
+.div2{
+    margin-left: 600px;
+    padding-bottom: 30px;
+ }
+
+.Hoursh1{
+    margin-left: 13px;
+}
+
+.div3span{
+    font-weight: 500;
+}
+#introHour{
+    padding: 50px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-width: 5px;
+    /* margin: 10px; */
+}
+#servicesHour{
+    padding: 70px;
+    border-color: #f2f2f2;
+    border-style: solid;
+    border-width: 5px;
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(171, 169, 169);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NationalZoo</title>
+    <link rel="stylesheet" href="style.css">
+<!-- what is the different between CSS link and HTML link? -->
+</head>
+
+<body>
+   <!-- HTML Link are two : link dakheli such as name.html , link khareji such as wwww.  they defined by Ancore tag <a></a> -->
+<!-- hamishe header va Nav tag ancor <a> estefadeh mikonim k <a> hamishe link dakheli ya link khareji darad!
+   az attribute class va id baraye tarif properties dar CSS estefade mikonim, chon mikhahim ya 
+   yek vizhegi motefavet dashte bashim dar har <a>  k attribute id gharar midahim , ya 
+   yek shebahat dar vizhegi ha darim k dar hameye <a> yeksan hast k az attribute class estefadeh mikonim -->
+      
+ <header> 
+   <h1 class="color">NATIONALZOO</h1>
+    <a href="#" class="HeaderAnimals color" id="Visit"><b>Visit</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Animals</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Support</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Membership</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Education</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Conservation</b></a>
+    <a href="#" title="To see more" class="HeaderAnimals color"><b>Search</b></a>
+</header>  
+
+<div>
+<img src="image/right-shave-closeup-web.webp" alt="cheeta" id="pic" style="width:100%;">
+<a href="https://nationalzoo.si.edu/animals/news/how-genomic-science-solved-cheetah-paternity-mystery"  target="_blank" class="centered color"><b>How Genomic Science Solved a Cheetah Paternity Mystery</b></a>
+</div>
+
+ <nav id="NavHome"> 
+    <a href="home.html" class="menuesitem"><b>Home</b></a>
+    <a href="hours.html" class="menuesitem"><b>Hours</b></a>
+    <a href="https://secure.nationalzoo.si.edu/events?_gl=1*1umaoeg*_ga*MzA1MzgxODMwLjE3MDkxMzc2ODE.*_ga_FZ22Y9JDR2*MTcwOTIzMzc0Mi4xMS4xLjE3MDkyMzM4NjYuMC4wLjA."  target="_blank"  class="menuesitem"><b>Entry Passes</b></a>
+    <a href="parking.html" class="menuesitem"><b>Parking & Directions</b></a>
+    <a href="https://nationalzoo.si.edu/animals/exhibits" target="_blank"    class="menuesitem"><b>Animal Exhibits</b></a>
+    <a href="map.html" class="menuesitem"><b>Zoo Map</b></a>  
+    <a href="qzoo.html" class="menuesitem"><b>FAQs</b></a>  
+</nav>
+
+<!-- 1. agar dar CSS section {} tarif konim hameye section ha mesl ham mishavand ama 
+mikhahim dar har section properties motefaveti dashtebashim va section ha 
+motefavet bashand k az attribute id estefade mikonim-->
+<!-- 2. bejaye Section momken <p> motefavet dashte bashim ya chandta <h2>
+   pas solution tanzimat attribute id ast.  -->
+<!-- 3. baraye vizhegi ya property yeksan mesl font-family az attribute class k moshtarak 
+   estefade mikonim. -->
+
+ <!-- <section id="slider"> slider </section> -->
+
+ <section id="intro">
+ <div>
+<br>
+   <img src="image/cotton-top-tamarin-single2-web.webp" alt="cotton" style="width:50% ;">
+   <h2 class="text">Introducing Toph and Suki</h2>  
+   <p class="text">The Zoo is excited to announce the names of the newest residents <br>
+      of the Small Mammal House! After more than 5,400 votes were <br> cast in an online public poll, the winning pair of names has been <br> 
+      revealed: Toph and Suki, named after characters from <br> the television show 'Avatar: The Last Airbender'. </p>
+</div>
+</section>
+ <section id="services">    
+    <h2>Live Streaming Webcams</h2>
+    <p>See cheetahs, elephants, lions and naked mole-rats on animal cams streaming live, 24/7 from the Smithsonian's <br>
+       National Zoo and Conservation Biology Institute.</p>
+
+ </section>
+
+<section id="customers"> 
+    <img src="image/20230307-DJI_0306-Pano-001RP-web.webp" alt="cloud" style="width: 100%;" id="pic2">  
+</section>
+
+ <footer class="color"> 
+
+   <a href="" class="FooterItems color" id="About"> About the Zoo</a>
+   <a href="" class="FooterItems color">General Info</a>
+   <a href="" class="FooterItems color">Careersr</a>
+   <a href="" class="FooterItems color">Privacy Policy</a>
+   <a href="" class="FooterItems color">News & Media</a>
+   <a href="" class="FooterItems color">Shop</a>
+   <address>
+      <h4>Contact Us</h4>
+      Guest Services: 202-633-2614 <br>
+      <a href="https://nationalzoo.si.edu/about/contact-us" id="ContactForm">General Contact Form</a>
+   </address>
+   <address id="SocialM">
+   <a href="#" class="SocialMedias color">facebook</a>
+   <a href="#" class="SocialMedias color">X</a>
+   <a href="#" class="SocialMedias color">instagram</a>
+</address>
+<address>
+   <h4>Address</h4>Address
+   Smithsonian's National Zoo & <br>
+   Conservation Biology Institute <br>
+   3001 Connecticut Ave., NW  <br>
+   Washington, DC 20008
+</address>
+
+</footer> 
+
+
+</body>
+</html>
