@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NationalZoo</title>
+    <link rel="icon" href="image/zooicon3.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+<!-- what is the different between CSS link and HTML link? -->
+<!-- link HTML "Favicon" zire <title> gharar migirad, 
+add a <link> element to your "index.html" file, after the <title> element -->
+</head>
+
+<body>
+   <!-- HTML Link are two : link dakheli such as name.html , link khareji such as wwww.  they defined by Ancore tag <a></a> -->
+<!-- hamishe header va Nav tag ancor <a> estefadeh mikonim k <a> hamishe link dakheli ya link khareji darad!
+   az attribute class va id baraye tarif properties dar CSS estefade mikonim, chon mikhahim ya 
+   yek vizhegi motefavet dashte bashim dar har <a>  k attribute id gharar midahim , ya 
+   yek shebahat dar vizhegi ha darim k dar hameye <a> yeksan hast k az attribute class estefadeh mikonim -->
+<div>  
+ <header> 
+    <a href="home.html" class="headerlogo"><b class="color">NATIONALZOO</b></a>
+    <a href="#" class="HeaderAnimals color" id="Visit"><b>Visit</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Animals</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Support</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Membership</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Education</b></a>
+    <a href="#" class="HeaderAnimals color"><b>Conservation</b></a>
+    <a href="#" title="To see more" class="HeaderAnimals color"><b>Search</b></a>
+</header>  
+<!-- i put font-size in css for <h1> -->
+<div>
+<img src="image/cheeta.webp" alt="cheeta" id="pic" style="width:100%;" >
+<a href="https://nationalzoo.si.edu/animals/news/how-genomic-science-solved-cheetah-paternity-mystery"  target="_blank"><h1 class="centered color">How Genomic Science Solved a Cheetah Paternity Mystery</h1></a>
+</div>
+<!-- Target in <a> tage when href is just outside = https -->
+   <ul class="ul-bricks"> 
+    <!-- <a href="home.html" class="menuesitem"><b>Home</b></a> -->
+    <li class="li-bricks"><a href="hours.html" class="menuesitem"><b>Hours</b></a></li>
+    <li class="li-bricks"><a href="https://secure.nationalzoo.si.edu/events?_gl=1*1umaoeg*_ga*MzA1MzgxODMwLjE3MDkxMzc2ODE.*_ga_FZ22Y9JDR2*MTcwOTIzMzc0Mi4xMS4xLjE3MDkyMzM4NjYuMC4wLjA."  target="_blank"  class="menuesitem"><b>Entry Passes</b></a></li>
+    <li class="li-bricks"><a href="parking.html" class="menuesitem"><b>Parking & Directions</b></a></li>
+    <li class="li-bricks"><a href="https://nationalzoo.si.edu/animals/exhibits" target="_blank"    class="menuesitem"><b>Animal Exhibits</b></a></li>
+    <li class="li-bricks"><a href="map.html" class="menuesitem"><b>Zoo Map</b></a></li>  
+    <li class="li-bricks"><a href="qzoo.html" class="menuesitem"><b>FAQs</b></a></li>  
+</ul>
+
+<!-- 1. agar dar CSS section {} tarif konim hameye section ha mesl ham mishavand ama 
+mikhahim dar har section properties motefaveti dashtebashim va section ha 
+motefavet bashand k az attribute id estefade mikonim-->
+<!-- 2. bejaye Section momken <p> motefavet dashte bashim ya chandta <h2>
+   pas solution tanzimat attribute id ast.  -->
+<!-- 3. baraye vizhegi ya property yeksan mesl font-family az attribute class k moshtarak 
+   estefade mikonim. -->
+
+ <!-- <section id="slider"> slider </section> -->
+
+ <section id="intro">
+<div class="introduction">
+   <a href="vote.html"><img src="image/follow-cotton-top-tamarin-single-web.webp" alt="cotton-top-tamarin" style="width:90% ; float: left;"></a>
+</div>
+<div class="introduction introborder">
+   <h2>Introducing Toph and Suki</h2>  
+   The Zoo is excited to announce the names of the newest residents
+   of the Small Mammal House! After more than 5,400 votes were cast in an online public poll, the winning pair of names has been  
+   revealed: Toph and Suki, named after characters from the television show 'Avatar: The Last Airbender'. 
+      <p><a href="vote.html" class="actionbuttonintro color">Learn More</a></p>
+</div>
+</section>
+ <section id="services" style="clear: both;">    
+    <h2>Live Streaming Webcams</h2>
+    <p>See cheetahs, elephants, lions and naked mole-rats on animal cams streaming live, 24/7 from the Smithsonian's <br>
+       National Zoo and Conservation Biology Institute.</p>
+
+ </section>
+
+<section id="customers"> 
+    <img src="image/20230307-DJI_0306-Pano-001RP-web.webp" alt="cloud" width="100%" id="pic2">  
+</section>
+
+ <footer class="color"> 
+
+   <a href="" class="FooterItems color" id="About"> About the Zoo</a>
+   <a href="" class="FooterItems color">General Info</a>
+   <a href="" class="FooterItems color">Careersr</a>
+   <a href="" class="FooterItems color">Privacy Policy</a>
+   <a href="" class="FooterItems color">News & Media</a>
+   <a href="" class="FooterItems color">Shop</a>
+   <address>
+      <h4>Contact Us</h4>
+      <span>Guest Services: 202-633-2614</span><br>
+      <a href="https://nationalzoo.si.edu/about/contact-us" id="ContactForm">General Contact Form</a>
+   </address>
+   <address id="SocialM">
+   <a href="#" class="SocialMedias color">facebook</a>
+   <a href="#" class="SocialMedias color">X</a>
+   <a href="#" class="SocialMedias color">instagram</a>
+</address>
+<address>
+   <h4>Address</h4>Address
+   Smithsonian's National Zoo & <br>
+   Conservation Biology Institute <br>
+   3001 Connecticut Ave., NW  <br>
+   Washington, DC 20008
+</address>
+
+<form action="mypage.php" id="formfooter">
+   <label for=""><h2>Sign Up for Emails</h2></label>
+   <input type="text" title="Please fill out this field">
+   <button>Sign up!</button>
+</form>
+
+</footer> 
+</div> 
+</body>
+</html>

@@ -1,0 +1,109 @@
+#NavPages{ 
+    padding: 20px;
+}
+.div1{
+   margin-left: 600px;
+   padding: 1px;
+   border-left: 5px solid rgb(196 222 166);
+   /* border-radius: 2px 2px 2px 2px; */
+}
+.div2{
+    margin-left: 600px;
+    padding-bottom: 30px;
+ }
+
+.Hoursh1{
+    margin-left: 13px;
+}
+
+.div3span{
+    font-weight: 500;
+}
+/* #sliderhours{ */
+
+/* } */
+.actionbuttonhours{
+    background-color:  rgb(196 222 166);
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color:  #11095c;
+    font-weight: bold;
+    border-radius: 5px;
+   
+}
+.actionbuttonhours:hover{
+    /* background-color: rgb(228, 244, 210); */
+    opacity: 75%;
+    border-bottom-color: #a09797;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    /* margin-right: 35px; */
+    /* display: inline-block; */
+}
+#introHour{
+    padding: 25px;
+    border-color: #f2f2f2;
+    /* border-style: solid; */
+    border-width: 5px;
+    margin: 30px 70px 0px 980px;
+    background-color: rgba(27, 92, 137, 0.5);
+}
+
+.introsection{
+    padding: 2px 40px 1px 40px;
+}
+#serviceHour{
+    width: 100%;
+    /* margin-left:550px; */
+}
+.servicebrick{
+    width: 47%;
+    float: left;
+    padding: 20px;
+    /* border: 2px solid blueviolet; */
+}
+
+#customerHour{
+    clear: both;
+    padding: 25px;
+    border-color: #f2f2f2; 
+    /* border-style: solid; */
+    border-width: 5px;
+    margin: 30px 70px 60px 600px;
+    background-color: rgba(172, 218, 232, 0.5);
+}
+/* If the margin property has four values:
+margin: 10px 5px 15px 20px;
+top margin is 10px
+right margin is 5px
+bottom margin is 15px
+left margin is 20px */
+.a-bricksp{
+    color: rgb(18, 101, 142);
+    font-weight: 720;
+}
+.image1{
+    margin: 30px 570px 60px 100px;
+}
+#servicevote{
+    margin-bottom: 350;
+}
+#voteh1set{
+       margin-left: 100px;
+}
+#votedivtotal{
+    margin: 10px 300px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#slider{
+    padding: 25px;
+}
+
+#sliderhours{
+    margin-left: 600px;
+    margin-bottom: 55px;
+}
